@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=DM+Serif+Display&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply bg-slate-800 text-white;
+}
+
+.fullflex {
+  @apply flex flex-col w-full h-screen items-center justify-center;
+}
+
+.fontle {
+  font-family: 'DM Serif Display', serif;
+}
+
+.card {
+  font-family: 'DM Sans', sans-serif;
+  @apply text-green-400 mx-4 border-2 border-green-400 px-4 py-2 rounded-md hover:bg-green-400 hover:text-white transition-all duration-200;
+}
